@@ -16,7 +16,7 @@ public class Tp_Note {
      */
     public static void main(String[] args) {
 
-        
+        vdd
         // TODO code application logic here
     }
 
