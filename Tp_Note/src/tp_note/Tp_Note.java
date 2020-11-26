@@ -15,6 +15,8 @@ public class Tp_Note {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+      estce que tu vois ca ;
         // TODO code application logic here
     }
 
