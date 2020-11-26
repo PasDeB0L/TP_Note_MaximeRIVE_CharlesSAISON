@@ -9,15 +9,14 @@ package tp_note;
  *
  * @author Moplo
  */
-public class Tp_Note {
+public class Explorateur extends Mobile{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-
-        Labyrinthe test = new Labyrinthe();
-        // TODO code application logic here
+    public Explorateur(Cellule cellule) {
+        super(cellule);
     }
 
+    @Override
+    public String toString(){
+        return "O";
+    } 
 }
