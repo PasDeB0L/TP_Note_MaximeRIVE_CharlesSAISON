@@ -7,15 +7,8 @@ package tp_note;
 
 /**
  *
- * @author Moplo
+ * @author 33607
  */
-public class Tp_Note {
-
+public class Mobile {
     
-    public static void main(String[] args) {
-
-        int ajout;
-        // TODO code application logic here
-    }
-
 }
