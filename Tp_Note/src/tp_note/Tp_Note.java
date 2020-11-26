@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package tp_note;
 
 /**
  *
- * @author 33607
+ * @author Moplo
  */
-public class main {
-    public static void main(String[] args)
-    {
-    
-        
-        System.exit(0);
+public class Tp_Note {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
 }
