@@ -11,13 +11,13 @@ import java.util.ArrayList;
 public abstract class Occupant {
     protected Cellule celluleOccupee;
     
+    
     public Occupant( Cellule cellule){
-        
+        celluleOccupee= cellule;
+        cellule.prendreOccupant(this);
     }
     
-    public Occupant prendreOccupant(Cellule cellule){
-        return cellule.prendreOccupant();
-    }
+    
     
     public Cellule getCellule()
     {
@@ -28,7 +28,9 @@ public abstract class Occupant {
         celluleOccupee=cellule;
     }
     
+    
     public String toString(){
-        return celluleOccupee.toString();
+        return "";
     }
+    
 }
