@@ -9,6 +9,21 @@ package tp_note;
  *
  * @author 33607
  */
-public class Mobile {
+public abstract class Mobile extends Occupant{
     
+    public Mobile(Cellule cellule) {
+        super(cellule);
+    }
+    
+    public void deplacerCellule(Cellule cellule){
+        setCellule(cellule);
+        
+    }
+    
+    public void deplacerVers(Cellule cellule){
+        
+        if ( cellule.estLibre())
+            deplaccerVers(cellule);
+        else System.out.println("coup impossible");// crrer l'exception
+    }
 }

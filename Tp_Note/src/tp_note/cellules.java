@@ -9,14 +9,6 @@ package tp_note;
  *
  * @author 33607
  */
-public class Explorateur extends Mobile{
+class cellules {
     
-    public Explorateur(Cellule cellule) {
-        super(cellule);
-    }
-    
-    @Override
-    public String toString(){
-        return "O";
-    } 
 }
